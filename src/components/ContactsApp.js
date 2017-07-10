@@ -11,4 +11,4 @@ class ContactsApp extends Component {
   }
 }
 
-export default LoaderHOC(ContactsApp);
+export default LoaderHOC("contacts")(ContactsApp);

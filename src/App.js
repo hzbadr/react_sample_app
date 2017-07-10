@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import ContactsApp from './components/ContactsApp';
+import Roaster from './components/Roaster';
 
 class App extends Component {
   state = {
@@ -29,6 +30,8 @@ class App extends Component {
         <div>
           <ContactsApp contacts={this.state.contacts}/>
         </div>
+
+        <Roaster days={[1]}/>
       </div>
     );
   }
